@@ -4,6 +4,7 @@ public class Driver {
     public static void main(String[] args) {
         Driver driver = new Driver();
         driver.runMenu();
+        System.out.println("test");
     }
 
 
@@ -176,5 +177,6 @@ public class Driver {
     private void listArtistSong() {
         System.out.println(Method.listArtistSong());
     }
+
 
   }
